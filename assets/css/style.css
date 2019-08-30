@@ -23,7 +23,20 @@
     padding: 30px 40px;
     color: white;
     font-size: 100px;
+    text-shadow: 2px 2px black;
+    
 }
 
 
 /*----./Navbar----*/
+
+
+/*----Footer----*/
+
+footer {
+    background-color: red;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    padding: 20px 0px;
+}
