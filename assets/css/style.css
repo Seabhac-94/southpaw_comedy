@@ -1,0 +1,29 @@
+@import url('https://fonts.googleapis.com/css?family=Bangers:100,200,300,400,500,600,700');
+
+
+/*----Generic Styles----*/
+
+.bangers-font {
+    font-family: "Bangers", sans-serif;
+    font-stretch: expanded;
+    font-size: 70px;
+    color: white;
+    text-shadow: 2px 2px black
+}
+
+/*----./Generic Styles----*/
+
+/*----Navbar----*/
+
+.nav-bg {
+    background-color: red
+}
+
+.fa-grin-squint-tears {
+    padding: 30px 40px;
+    color: white;
+    font-size: 100px;
+}
+
+
+/*----./Navbar----*/
