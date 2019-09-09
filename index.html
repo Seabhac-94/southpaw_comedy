@@ -25,13 +25,20 @@
 
     </nav>
     <!----./Navbar---->
-<br>
+    <br>
     <!----Main Content---->
     <section>
         <div class="container-fluid main-padding">
             <div class="row">
                 <div class="col-lg-4">
-                    Dropdown Menu
+                    <div class="form-group">
+                        <label for="areaSelectForm">Select Area</label>
+                        <select class="form-control" id="areaSelectForm">
+                          <option id="cork">Cork</option>
+                          <option id="dublin">Dublin</option>
+                          <option id="limerick">Limerick</option>
+                        </select>
+                    </div>
                 </div>
                 <div class="col-lg-8">
                     <div id="map"></div>
@@ -59,7 +66,7 @@
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
     <script type="text/javascript" src="assets/js/script.js"></script>
     <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBELeyDh_W18CoaTRUW-9FzqugZkfHW6xc&callback=initMap" type="text/javascript"></script>
-   
+
 
     <!----./JavaScript Links---->
 </body>
