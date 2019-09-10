@@ -39,6 +39,14 @@ html, body {
     padding-bottom: 40px
 }
 
+
+.results-box {
+    border: solid 1px grey;
+    background-color: lightgray;
+    width: 100%;
+    
+}
+
 /*----./Main Content----*/
 
 /*----Map----*/
