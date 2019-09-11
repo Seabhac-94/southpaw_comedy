@@ -51,6 +51,10 @@ html, body {
     padding: 20px 30px
 }
 
+.cork-results {
+    display: block
+}
+
 /*----./Main Content----*/
 
 /*----Map----*/
