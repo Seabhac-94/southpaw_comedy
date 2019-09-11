@@ -1,9 +1,14 @@
 $(document).ready(function() {
+  
+  $('#cork').click(function(){
+    $('.corkResults').slideDown('slow');
+    $('.resultsBox').slideDown('1800')
+      });
+
+  $('button').click(function(){
     
-   $('#cork').click(function(){
-       $('.cork-results').toggle('1000')
-   })
-        
+    $(this).next().slideToggle('slow');
     
+  });
     
-    });
+  });

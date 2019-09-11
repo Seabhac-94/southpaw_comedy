@@ -40,20 +40,40 @@ html, body {
 }
 
 
-.results-box {
+.resultsBox {
     border: solid 1px grey;
     background-color: lightgray;
     width: 100%;
+    display: none
     
+}
+
+.corkResults {
+    display: none;   
 }
 
 .rb-padding {
     padding: 20px 30px
 }
 
-.cork-results {
-    display: block
+#cityLimitsContent {
+    display: none
 }
+
+#comedyCavernContent {
+    display: none
+}
+
+#cocoClubContent {
+    display: none
+}
+
+#wonkyDonkeyContent {
+    display: none
+}
+
+
+
 
 /*----./Main Content----*/
 
