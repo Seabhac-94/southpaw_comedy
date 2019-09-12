@@ -39,8 +39,16 @@ html, body {
     padding-bottom: 40px
 }
 
+.button-padding {
+    padding: 20px 30px;
+    
+}
 
-.resultsBox {
+.corkResults {
+    display: none;   
+}
+
+.corkResultsBox {
     border: solid 1px grey;
     background-color: lightgray;
     width: 100%;
@@ -48,8 +56,28 @@ html, body {
     
 }
 
-.corkResults {
-    display: none;   
+.dublinResults {
+    display: none;
+}
+
+.dublinResultsBox {
+    border: solid 1px grey;
+    background-color: lightgray;
+    width: 100%;
+    display: none
+    
+}
+
+.limerickResults{
+    display: none;
+}
+
+.limerickResultsBox {
+    border: solid 1px grey;
+    background-color: lightgray;
+    width: 100%;
+    display: none
+    
 }
 
 .rb-padding {
