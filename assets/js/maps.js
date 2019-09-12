@@ -25,17 +25,15 @@ var locations = [
     { lat: 51.892656, lng: -8.468170 },
     { lat: 51.898848, lng: -8.476154 },
     { lat: 51.898224, lng: -8.481427 },
+    { lat: 53.347902, lng: -6.258203 },  
+    { lat: 53.343072, lng: -6.261574 },
+    { lat: 53.346073, lng: -6.269569 },
+    { lat: 53.336574, lng: -6.265719 },
 ];
 
 
-var cork = { lat: 51.8985, lng: -8.4756 };
-
-//Dublin
-
-
-//Limerick
-
-
+var cork = {lat: 51.8985, lng: -8.4756};
+var dublin = {lat: 53.3498, lng: 6.2603}
 
 
 /*
@@ -49,5 +47,10 @@ the roundy 51.898848, -8.476154
 the wonky donkey 51.898224, -8.481427
 
 DUBLIN
+
+laughter lounge 53.347902 -6.258203
+comedy cellar  53.343072 -6.261574
+jesters comedy 53.346073 -6.269569
+whelans/pop the cherry 53.336574 -6.265719
 
 */

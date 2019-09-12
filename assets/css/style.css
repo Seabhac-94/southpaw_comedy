@@ -2,7 +2,9 @@
 
 
 /*----Generic Styles----*/
-html, body {
+
+html,
+body {
     height: 100%;
     margin: 0;
     padding: 0
@@ -11,7 +13,7 @@ html, body {
 
 .bangers-font {
     font-family: "Bangers", sans-serif;
-   
+
     font-size: 70px;
     color: white;
     text-shadow: 2px 2px black
@@ -41,11 +43,14 @@ html, body {
 
 .button-padding {
     padding: 20px 30px;
-    
+}
+
+.rb-padding {
+    padding: 20px 30px
 }
 
 .corkResults {
-    display: none;   
+    display: none;
 }
 
 .corkResultsBox {
@@ -53,7 +58,6 @@ html, body {
     background-color: lightgray;
     width: 100%;
     display: none
-    
 }
 
 .dublinResults {
@@ -65,10 +69,9 @@ html, body {
     background-color: lightgray;
     width: 100%;
     display: none
-    
 }
 
-.limerickResults{
+.limerickResults {
     display: none;
 }
 
@@ -77,11 +80,6 @@ html, body {
     background-color: lightgray;
     width: 100%;
     display: none
-    
-}
-
-.rb-padding {
-    padding: 20px 30px
 }
 
 #cityLimitsContent {
@@ -100,6 +98,21 @@ html, body {
     display: none
 }
 
+#laughterLoungeContent {
+    display: none
+}
+
+#comedyCellarContent {
+    display: none
+}
+
+#jestersComedyContent {
+    display: none
+}
+
+#popCherryContent {
+    display: none
+}
 
 
 
@@ -108,10 +121,10 @@ html, body {
 /*----Map----*/
 
 #map {
-        width: 100%;
-        height: 60vh;
-        background-color: grey;
-      }
+    width: 100%;
+    height: 60vh;
+    background-color: grey;
+}
 
 /*----Footer----*/
 
@@ -119,5 +132,3 @@ footer {
     background-color: red;
     padding: 20px 0px;
 }
-
-
