@@ -101,7 +101,7 @@ $(document).ready(function() {
     $('#treatyComedyContent').slideToggle('slow');
   });
 
-  $('#fillbusterButton').click(function() {
+  $('#filibusterButton').click(function() {
     $('#treatyComedyContent').slideUp('slow');
     $('#karlnivalContent').slideUp('slow');
     $('#filibusterContent').slideToggle('slow');

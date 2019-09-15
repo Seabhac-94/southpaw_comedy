@@ -24,7 +24,7 @@ body {
 /*----Navbar----*/
 
 .nav-bg {
-    background-color: red;
+    background-color: #FF6322;
 }
 
 .navbar-brand {
@@ -32,10 +32,11 @@ body {
 }
 
 
-
 /*----./Navbar----*/
 
 /*----Main Content----*/
+
+
 
 .main-padding {
     padding-bottom: 40px
@@ -65,14 +66,19 @@ body {
 .main-bg {
     background-image: url("../../crowd.jpg");
     background-size: cover;
-    opacity: 0.5
+    
 }
 
+.bg-font-color {
+    color: #fff;
+}
 
 
 .buttonHighlight {
     background-color: gray
 }
+
+
 
 .corkResults {
     display: none;
@@ -171,6 +177,6 @@ body {
 /*----Footer----*/
 
 footer {
-    background-color: red;
+    background-color: #FF6322;
     padding: 20px 0px;
 }
