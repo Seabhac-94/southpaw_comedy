@@ -1,17 +1,17 @@
 function initMap() {
 
     var map = new google.maps.Map(document.getElementById('map'), {
-        zoom: 6,
+        zoom: 7,
         center: { lat: 53.1424, lng: -7.6921 }
     });
     
-    //Cork
-    var corkLabels = 'ABCD';
+    //Labels
+    var labels = 'ABCD';
 
     var markers = locations.map(function(location, i) {
         return new google.maps.Marker({
             position: location,
-            label: corkLabels[i % corkLabels.length]
+            label: labels[i % labels.length]
             
         });
     });
@@ -29,12 +29,15 @@ var locations = [
     { lat: 53.343072, lng: -6.261574 },
     { lat: 53.346073, lng: -6.269569 },
     { lat: 53.336574, lng: -6.265719 },
+    { lat: 52.664419, lng: -8.628652 },  
+    { lat: 52.662093, lng: -8.624043 },
+    { lat: 52.658333, lng: -8.637861 },
 ];
 
 
 var cork = {lat: 51.8985, lng: -8.4756};
 var dublin = {lat: 53.3498, lng: 6.2603}
-
+var limerick = {lat: 52.6638, lng: -8.6267}
 
 /*
 
@@ -52,5 +55,12 @@ laughter lounge 53.347902 -6.258203
 comedy cellar  53.343072 -6.261574
 jesters comedy 53.346073 -6.269569
 whelans/pop the cherry 53.336574 -6.265719
+
+LIMERICK
+
+treaty comedy club 52.664419 -8.628652
+fillbuster @ the blind pig  52.662093 -8.624043
+karlnival @ dolan's  52.658333, -8.637861
+
 
 */

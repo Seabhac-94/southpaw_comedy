@@ -4,30 +4,30 @@ $(document).ready(function() {
 
 
   $('#cork').click(function() {
-    $('.dublinResults').slideUp('slow');
-    $('.limerickResults').slideUp('slow');
-    $('.dublinResultsBox').slideUp('slow');
-    $('.limerickResultsBox').slideUp('slow');
+    $('.dublinResults').slideUp('medium');
+    $('.limerickResults').slideUp('medium');
+    $('.dublinResultsBox').slideUp('medium');
+    $('.limerickResultsBox').slideUp('medium');
     $('.corkResults').slideDown('slow');
-    $('.corkResultsBox').slideDown('1800');
+    $('.corkResultsBox').slideDown(1800);
   });
 
   $('#dublin').click(function() {
-    $('.corkResults').slideUp('slow');
-    $('.limerickResults').slideUp('slow');
-    $('.corkResultsBox').slideUp('slow');
-    $('.limerickResultsBox').slideUp('slow');
+    $('.corkResults').slideUp('medium');
+    $('.limerickResults').slideUp('medium');
+    $('.corkResultsBox').slideUp('medium');
+    $('.limerickResultsBox').slideUp('medium');
     $('.dublinResults').slideDown('slow');
-    $('.dublinResultsBox').slideDown('1800')
+    $('.dublinResultsBox').slideDown(1800)
   });
 
   $('#limerick').click(function() {
-    $('.dublinResults').slideUp('slow');
-    $('.corkResults').slideUp('slow');
-    $('.dublinResultsBox').slideUp('slow');
-    $('.corkResultsBox').slideUp('slow');
+    $('.dublinResults').slideUp('medium');
+    $('.corkResults').slideUp('medium');
+    $('.dublinResultsBox').slideUp('medium');
+    $('.corkResultsBox').slideUp('medium');
     $('.limerickResults').slideDown('slow');
-    $('.limerickResultsBox').slideDown('1800')
+    $('.limerickResultsBox').slideDown(1800)
   });
 
   //Cork Club Buttons
@@ -93,4 +93,28 @@ $(document).ready(function() {
   });
 
 
+  //Limerick Club Buttons
+
+  $('#treatyComedyButton').click(function() {
+    $('#filibusterContent').slideUp('slow');
+    $('#karlnivalContent').slideUp('slow');
+    $('#treatyComedyContent').slideToggle('slow');
+  });
+
+  $('#fillbusterButton').click(function() {
+    $('#treatyComedyContent').slideUp('slow');
+    $('#karlnivalContent').slideUp('slow');
+    $('#filibusterContent').slideToggle('slow');
+  });
+
+  $('#karlnivalButton').click(function() {
+    $('#filibusterContent').slideUp('slow');
+    $('#treatyComedyContent').slideUp('slow');
+    $('#karlnivalContent').slideToggle('slow');
+  });
+
+
+
 });
+
+
