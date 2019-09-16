@@ -13,7 +13,7 @@ body {
 .bangers-font {
     font-family: "Bangers", sans-serif;
     letter-spacing: 10px;
-    font-size: 70px;
+    font-size: 70px;    /*--- DO MEDIA QUERY --- */
     color: white;
     text-shadow: 2px 2px black
 }
@@ -21,6 +21,20 @@ body {
 /*----./Generic Styles----*/
 
 /*----Navbar----*/
+
+.logo {
+    height: 190px;
+    width:190px;
+    position: absolute;
+    left: 60px;
+    z-index: 1;
+    animation-name: logo;
+    animation-direction: alternate;
+    animation-duration: 0.75s;
+    animation-timing-function: ease-in-out;
+    animation-iteration-count: infinite;
+}
+
 
 .nav-bg {
     background-color: #FF6322;
@@ -63,6 +77,8 @@ body {
 .main-bg {
     background-image: url("../../crowd.jpg");
     background-size: cover;
+    height: 100%;
+    width: 100%
     
 }
 
@@ -127,6 +143,8 @@ body {
 /*----Footer----*/
 
 footer {
+    position: relative;
+    bottom: 0px;
     background-color: #FF6322;
     padding: 20px 0px;
 }
@@ -136,3 +154,13 @@ footer {
 /* Animations */
 
 
+@keyframes logo {
+    from {
+    height: 180px;
+    width:180px;
+    }
+    to {
+    height: 200px;
+    width:200px;
+    }
+}
