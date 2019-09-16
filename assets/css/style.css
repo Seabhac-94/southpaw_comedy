@@ -80,11 +80,15 @@ body {
 
 
 
-.corkResults {
+.corkResults,
+.dublinResults,
+.limerickResults {
     display: none;
 }
 
-.corkResultsBox {
+.corkResultsBox,
+.dublinResultsBox,
+.limerickResultsBox {
     border: solid 1px grey;
     border-radius: 10px;
     background-color: lightgray;
@@ -93,71 +97,17 @@ body {
     padding: 0px 10px
 }
 
-.dublinResults {
-    display: none;
-}
 
-.dublinResultsBox {
-    border: solid 1px grey;
-    border-radius: 10px;
-    background-color: lightgray;
-    width: 100%;
-    display: none;
-   
-}
-
-.limerickResults {
-    display: none;
-}
-
-.limerickResultsBox {
-    border: solid 1px grey;
-    border-radius: 10px;
-    background-color: lightgray;
-    width: 100%;
-    display: none;
-  
-}
-
-#cityLimitsContent {
-    display: none
-}
-
-#comedyCavernContent {
-    display: none
-}
-
-#cocoClubContent {
-    display: none
-}
-
-#wonkyDonkeyContent {
-    display: none
-}
-
-#laughterLoungeContent {
-    display: none
-}
-
-#comedyCellarContent {
-    display: none
-}
-
-#jestersComedyContent {
-    display: none
-}
-
-#popCherryContent {
-    display: none
-}
-
-#treatyComedyContent {
-    display: none
-}
-#filibusterContent {
-    display: none
-}
-
+#cityLimitsContent,
+#comedyCavernContent,
+#cocoClubContent,
+#wonkyDonkeyContent, 
+#laughterLoungeContent,
+#comedyCellarContent,
+#jestersComedyContent,
+#popCherryContent,
+#treatyComedyContent,
+#filibusterContent,
 #karlnivalContent {
     display: none
 }
