@@ -37,3 +37,13 @@ the site, to give users a clear indication of how close the clubs are to them.
 
 2. Restaurants: There is plans to also incorporate a feature that will allow users
 to see which restaurants are closest to each club, based on budget and ratings.
+
+## Technologies Used
+
+1. <a href="https://getbootstrap.com">Bootstrap</a> was the basic frameworks off which the site was built. Bootstrap was chosen as it provides a simple yet effective frameworks off of which sites can be built.
+2. Google Maps API was used to implement the map feature as it provided the data needed to build a successful site which utilises a map function.
+3. jQuery was used to implement the
+interactive features of the project to simplify manipulation of the DOM and as it provides a good libary of effects for UX.
+
+## Testing
+
