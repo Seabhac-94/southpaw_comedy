@@ -114,6 +114,13 @@ $(document).ready(function() {
   });
 
 
+// Reset
+
+$('#reset').click(function() {
+    $('.reset-function').slideUp();
+   
+})
+
 
 });
 
