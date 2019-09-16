@@ -118,9 +118,6 @@ $(document).ready(function() {
 
   // Reset
 
-  $('.reset-slide').click(function() {
-    $('.reset-function').slideUp();
-
-  })
+ 
 
 });

@@ -162,6 +162,9 @@ body {
     display: none
 }
 
+#map {
+    opacity: 0.8
+}
 
 
 /*----./Main Content----*/
@@ -180,3 +183,9 @@ footer {
     background-color: #FF6322;
     padding: 20px 0px;
 }
+
+
+
+/* Animations */
+
+

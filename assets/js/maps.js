@@ -3,11 +3,11 @@ var cork = { lat: 51.8985, lng: -8.4756 };
 var dublin = { lat: 53.3498, lng: 6.2603 };
 var limerick = { lat: 52.6638, lng: -8.6267 };
 
-
+var map = null;
 
 function initMap() {
 
-    var map = new google.maps.Map(document.getElementById('map'), {
+    map = new google.maps.Map(document.getElementById('map'), {
         zoom: 7,
         center: ireland
     });
@@ -31,8 +31,32 @@ function initMap() {
 
 //Reset Button
 
+$('#reset').click(function() {
+    map.setCenter(ireland);
+    map.setZoom(7);
+    $('.reset-function').slideUp('medium')
+});
 
 
+//Zoom to locations
+
+$('#cork').click(function() {
+    map.setCenter(cork);
+    map.setZoom(15);
+    
+});
+
+$('#dublin').click(function() {
+    map.setCenter(dublin);
+    map.setZoom(14);
+    
+});
+
+$('#limerick').click(function() {
+    map.setCenter(limerick);
+    map.setZoom(15);
+    
+});
 
 
 
@@ -52,8 +76,8 @@ var locations = [
 
 var ireland = { lat: 53.1424, lng: -7.6921 };
 var cork = { lat: 51.8985, lng: -8.4756 };
-var dublin = { lat: 53.3498, lng: 6.2603 }
-var limerick = { lat: 52.6638, lng: -8.6267 }
+var dublin = { lat: 53.3450, lng: -6.2603 }
+var limerick = { lat: 52.6630, lng: -8.6267 }
 
 /*
 
