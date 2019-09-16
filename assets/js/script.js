@@ -116,7 +116,9 @@ $(document).ready(function() {
   });
 
 
-  // Reset
+  $('#cork, #dublin, #limerick').click(function(){
+    $('.mapOpacity').css('opacity', '1')
+  });
 
  
 

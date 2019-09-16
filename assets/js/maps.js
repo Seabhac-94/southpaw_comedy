@@ -34,7 +34,8 @@ function initMap() {
 $('#reset').click(function() {
     map.setCenter(ireland);
     map.setZoom(7);
-    $('.reset-function').slideUp('medium')
+    $('.reset-function').slideUp('medium');
+    $('.mapOpacity').css('opacity', '0.7');
 });
 
 

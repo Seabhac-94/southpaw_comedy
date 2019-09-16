@@ -162,10 +162,6 @@ body {
     display: none
 }
 
-#map {
-    opacity: 0.8
-}
-
 
 /*----./Main Content----*/
 
@@ -175,6 +171,10 @@ body {
     width: 100%;
     height: 70vh;
     background-color: grey;
+}
+
+.mapOpacity {
+    opacity: 0.7
 }
 
 /*----Footer----*/
