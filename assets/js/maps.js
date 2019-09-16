@@ -37,7 +37,7 @@ function initMap() {
         });
     });
 
-    // Add a marker clusterer to manage the markers.
+    // marker clusterer
     var markerCluster = new MarkerClusterer(map, markers, { imagePath: 'https://developers.google.com/maps/documentation/javascript/examples/markerclusterer/m' });
 
 }
@@ -141,31 +141,3 @@ $('#karlnivalButton').click(function() {
     map.setZoom(18);
 });
 
-
-
-
-/*
-
- 
-postions of comedy clubs
-CORK
-city limits cork 51.901923, -8.470862
-coughlans comedy club 51.892656, -8.468170
-the roundy 51.898848, -8.476154
-the wonky donkey 51.898224, -8.481427
-
-DUBLIN
-
-laughter lounge 53.347902 -6.258203
-comedy cellar  53.343072 -6.261574
-jesters comedy 53.346073 -6.269569
-whelans/pop the cherry 53.336574 -6.265719
-
-LIMERICK
-
-treaty comedy club 52.664419 -8.628652
-fillbuster @ the blind pig  52.662093 -8.624043
-karlnival @ dolan's  52.658333, -8.637861
-
-
-*/
