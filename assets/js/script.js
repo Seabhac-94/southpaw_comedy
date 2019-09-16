@@ -11,6 +11,8 @@ $(document).ready(function() {
     $('.corkResults').slideDown('slow');
     $('.corkResultsBox').slideDown(1800);
   });
+  
+
 
   $('#dublin').click(function() {
     $('.corkResults').slideUp('medium');
@@ -114,14 +116,11 @@ $(document).ready(function() {
   });
 
 
-// Reset
+  // Reset
 
-$('#reset').click(function() {
+  $('.reset-slide').click(function() {
     $('.reset-function').slideUp();
-   
-})
 
+  })
 
 });
-
-
