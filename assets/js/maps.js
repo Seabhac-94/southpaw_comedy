@@ -1,7 +1,21 @@
 var ireland = { lat: 53.1424, lng: -7.6921 };
 var cork = { lat: 51.8985, lng: -8.4756 };
-var dublin = { lat: 53.3498, lng: 6.2603 };
-var limerick = { lat: 52.6638, lng: -8.6267 };
+var dublin = { lat: 53.3450, lng: -6.2603 };
+var limerick = { lat: 52.6630, lng: -8.6267 };
+var locations = [
+    { lat: 51.901923, lng: -8.470862 },
+    { lat: 51.892656, lng: -8.468170 },
+    { lat: 51.898848, lng: -8.476154 },
+    { lat: 51.898224, lng: -8.481427 },
+    { lat: 53.347902, lng: -6.258203 },
+    { lat: 53.343072, lng: -6.261574 },
+    { lat: 53.346073, lng: -6.269569 },
+    { lat: 53.336574, lng: -6.265719 },
+    { lat: 52.664419, lng: -8.628652 },
+    { lat: 52.662093, lng: -8.624043 },
+    { lat: 52.658333, lng: -8.637861 },
+];
+
 
 var map = null;
 
@@ -39,46 +53,96 @@ $('#reset').click(function() {
 });
 
 
-//Zoom to locations
+//Zoom to Counties
 
 $('#cork').click(function() {
     map.setCenter(cork);
     map.setZoom(15);
-    
+
 });
 
 $('#dublin').click(function() {
     map.setCenter(dublin);
     map.setZoom(14);
-    
+
 });
 
 $('#limerick').click(function() {
     map.setCenter(limerick);
     map.setZoom(15);
-    
+
 });
 
 
 
-var locations = [
-    { lat: 51.901923, lng: -8.470862 },
-    { lat: 51.892656, lng: -8.468170 },
-    { lat: 51.898848, lng: -8.476154 },
-    { lat: 51.898224, lng: -8.481427 },
-    { lat: 53.347902, lng: -6.258203 },
-    { lat: 53.343072, lng: -6.261574 },
-    { lat: 53.346073, lng: -6.269569 },
-    { lat: 53.336574, lng: -6.265719 },
-    { lat: 52.664419, lng: -8.628652 },
-    { lat: 52.662093, lng: -8.624043 },
-    { lat: 52.658333, lng: -8.637861 },
-];
+//Zoom to Clubs
 
-var ireland = { lat: 53.1424, lng: -7.6921 };
-var cork = { lat: 51.8985, lng: -8.4756 };
-var dublin = { lat: 53.3450, lng: -6.2603 }
-var limerick = { lat: 52.6630, lng: -8.6267 }
+//Cork
+
+$('#cityLimitsButton').click(function() {
+    map.setCenter({ lat: 51.901923, lng: -8.470862 });
+    map.setZoom(18);
+});
+
+$('#comedyCavernButton').click(function() {
+    map.setCenter({ lat: 51.892656, lng: -8.468170 });
+    map.setZoom(18);
+});
+
+$('#cocoClubButton').click(function() {
+    map.setCenter({ lat: 51.898848, lng: -8.476154 });
+    map.setZoom(18);
+});
+
+$('#wonkyDonkeyButton').click(function() {
+    map.setCenter({ lat: 51.898224, lng: -8.481427 });
+    map.setZoom(18);
+});
+
+//Dublin
+
+$('#laughterLoungeButton').click(function() {
+    map.setCenter({ lat: 53.347902, lng: -6.258203 });
+    map.setZoom(18);
+});
+
+$('#comedyCellarButton').click(function() {
+    map.setCenter({ lat: 53.343072, lng: -6.261574 });
+    map.setZoom(18);
+});
+
+$('#jestersComedyButton').click(function() {
+    map.setCenter({ lat: 53.346073, lng: -6.269569 });
+    map.setZoom(18);
+});
+
+$('#popCherryButton').click(function() {
+    map.setCenter({ lat: 53.336574, lng: -6.265719 });
+    map.setZoom(18);
+});
+
+
+    
+
+//Limerick
+
+$('#treatyComedyButton').click(function() {
+    map.setCenter({ lat: 52.664419, lng: -8.628652 });
+    map.setZoom(18);
+});
+
+$('#filibusterButton').click(function() {
+    map.setCenter({ lat: 52.662093, lng: -8.624043 });
+    map.setZoom(18);
+});
+
+$('#karlnivalButton').click(function() {
+    map.setCenter( { lat: 52.658333, lng: -8.637861 });
+    map.setZoom(18);
+});
+
+
+
 
 /*
 
