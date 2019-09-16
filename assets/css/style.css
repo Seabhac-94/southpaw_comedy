@@ -149,7 +149,19 @@ footer {
     padding: 20px 0px;
 }
 
+/* Media Queries */
 
+@media (max-width : 1025px) {
+    .logo {
+    height: 140px;
+    width:140px;
+    position: absolute;
+    left: 0px;
+    }
+    .bangers-font {
+        font-size: 50px;
+    }
+}
 
 /* Animations */
 
@@ -164,3 +176,4 @@ footer {
     width:200px;
     }
 }
+
