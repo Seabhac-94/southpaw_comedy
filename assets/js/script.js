@@ -16,7 +16,7 @@ $(document).ready(function() {
   });
 
   $('#limerick').click(function() {
-    $('.dublinResults, .corkResults, .dublinResultsBox, corkResultsBox').slideUp('medium');
+    $('.dublinResults, .corkResults, .dublinResultsBox, .corkResultsBox').slideUp('medium');
     $('.limerickResults').slideDown('slow');
     $('.limerickResultsBox').slideDown(1800)
   });
