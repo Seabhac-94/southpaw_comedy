@@ -12,14 +12,14 @@ $(document).ready(function() {
     $('.corkResults, .limerickResults, .corkResultsBox, .limerickResultsBox, .reset-function').slideUp('medium');
     $('.nav-bg, footer').css('backgroundColor', '#007bff');
     $('.dublinResults').slideDown('slow');
-    $('.dublinResultsBox').slideDown(1800)
+    $('.dublinResultsBox').slideDown(1800);
   });
 
   $('#limerick').click(function() {
     $('.dublinResults, .corkResults, .dublinResultsBox, .corkResultsBox, .reset-function').slideUp('medium');
     $('.nav-bg, footer').css('backgroundColor', '#28a745');
     $('.limerickResults').slideDown('slow');
-    $('.limerickResultsBox').slideDown(1800)
+    $('.limerickResultsBox').slideDown(1800);
   });
 
   //Cork Club Buttons
@@ -86,7 +86,7 @@ $(document).ready(function() {
   // Opacity
 
   $('#cork, #dublin, #limerick').click(function() {
-    $('.mapOpacity').css('opacity', '1')
+    $('.mapOpacity').css('opacity', '1');
   });
 
 
