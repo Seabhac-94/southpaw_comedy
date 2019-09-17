@@ -1,8 +1,6 @@
 $(document).ready(function() {
 
   // Selector Buttons
-
-
   $('#cork').click(function() {
     $('.dublinResults, .limerickResults, .dublinResultsBox, .limerickResultsBox, .reset-function').slideUp('medium');
     $('.nav-bg, footer').css('backgroundColor', '#dc3545');
@@ -46,7 +44,6 @@ $(document).ready(function() {
     $('#wonkyDonkeyContent').slideToggle('slow');
   });
 
-
   //Dublin Club Buttons
 
   $('#laughterLoungeButton').click(function() {
@@ -69,7 +66,6 @@ $(document).ready(function() {
     $('#popCherryContent').slideToggle('slow');
   });
 
-
   //Limerick Club Buttons
 
   $('#treatyComedyButton').click(function() {
@@ -86,7 +82,6 @@ $(document).ready(function() {
     $('#filibusterContent, #treatyComedyContent').slideUp('slow');
     $('#karlnivalContent').slideToggle('slow');
   });
-
 
   // Opacity
 
