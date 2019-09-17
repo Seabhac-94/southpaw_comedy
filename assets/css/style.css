@@ -1,6 +1,5 @@
 @import url('https://fonts.googleapis.com/css?family=Bangers:100,200,300,400,500,600,700');
 
-
 /*----Generic Styles----*/
 
 html,
@@ -13,7 +12,6 @@ body {
 .bangers-font {
     font-family: "Bangers", sans-serif;
     letter-spacing: 10px;
-    font-size: 70px;
     color: white;
     text-shadow: 2px 2px black
 }
@@ -34,7 +32,6 @@ body {
     animation-timing-function: ease-in-out;
     animation-iteration-count: infinite;
 }
-
 
 .nav-bg {
     background-color: #FF6322;
@@ -84,12 +81,9 @@ body {
     color: #fff;
 }
 
-
 .buttonHighlight {
     background-color: gray
 }
-
-
 
 .corkResults,
 .dublinResults,
@@ -109,7 +103,6 @@ body {
     padding: 0px 10px
 }
 
-
 #cityLimitsContent,
 #comedyCavernContent,
 #cocoClubContent,
@@ -123,7 +116,6 @@ body {
 #karlnivalContent {
     display: none
 }
-
 
 /*----./Main Content----*/
 
@@ -143,7 +135,6 @@ body {
 /*----Footer----*/
 
 footer {
-    
     background-color: #FF6322;
     font-family: "Bangers", sans-serif;
     letter-spacing: 5px;
@@ -152,28 +143,16 @@ footer {
     padding: 10px 20px
 }
 
-
-
 /* Media Queries */
 
-@media (max-width: 991.98px) {
-
-    .bangers-font {
-        font-size: 50px;
+@media (min-width: 1200px) {
+    footer {
+        position: fixed;
+        bottom: 0px;
     }
 }
-
-@media (max-width: 767.98px) {
-
-    .bangers-font {
-        font-size: 30px;
-    }
-}
-
-
 
 /* Animations */
-
 @keyframes logo {
     from {
         height: 180px;
