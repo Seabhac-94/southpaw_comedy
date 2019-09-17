@@ -140,4 +140,3 @@ $('#karlnivalButton').click(function() {
     map.setCenter( { lat: 52.658333, lng: -8.637861 });
     map.setZoom(18);
 });
-
