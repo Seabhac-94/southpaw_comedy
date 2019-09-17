@@ -74,7 +74,7 @@ body {
 }
 
 .main-bg {
-    background-image: url("../../crowd.jpg");
+    background-image: url("../images/crowd.jpg");
     background-size: cover;
     height: 100%;
     width: 100%
