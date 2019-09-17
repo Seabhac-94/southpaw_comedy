@@ -13,7 +13,7 @@ body {
 .bangers-font {
     font-family: "Bangers", sans-serif;
     letter-spacing: 10px;
-    font-size: 70px;    /*--- DO MEDIA QUERY --- */
+    font-size: 70px;
     color: white;
     text-shadow: 2px 2px black
 }
@@ -24,7 +24,7 @@ body {
 
 .logo {
     height: 190px;
-    width:190px;
+    width: 190px;
     position: absolute;
     left: 60px;
     z-index: 1;
@@ -47,7 +47,6 @@ body {
 /*----./Navbar----*/
 
 /*----Main Content----*/
-
 
 .main-padding {
     padding-bottom: 40px
@@ -79,7 +78,6 @@ body {
     background-size: cover;
     height: 100%;
     width: 100%
-    
 }
 
 .bg-font-color {
@@ -114,7 +112,7 @@ body {
 #cityLimitsContent,
 #comedyCavernContent,
 #cocoClubContent,
-#wonkyDonkeyContent, 
+#wonkyDonkeyContent,
 #laughterLoungeContent,
 #comedyCellarContent,
 #jestersComedyContent,
@@ -143,40 +141,44 @@ body {
 /*----Footer----*/
 
 footer {
-    position: relative;
-    bottom: 0px;
+    
     background-color: #FF6322;
-    padding: 20px 0px;
+    font-family: "Bangers", sans-serif;
+    letter-spacing: 5px;
+    text-shadow: 1px 1px black;
+    color: white;
+    padding: 20px 20px
 }
+
+
 
 /* Media Queries */
 
-@media (max-width : 991.98px) {
- 
+@media (max-width: 991.98px) {
+
     .bangers-font {
         font-size: 50px;
     }
 }
 
-@media (max-width : 767.98px) {
- 
+@media (max-width: 767.98px) {
+
     .bangers-font {
         font-size: 30px;
     }
 }
 
 
-/* Animations */
 
+/* Animations */
 
 @keyframes logo {
     from {
-    height: 180px;
-    width:180px;
+        height: 180px;
+        width: 180px;
     }
     to {
-    height: 200px;
-    width:200px;
+        height: 200px;
+        width: 200px;
     }
 }
-
