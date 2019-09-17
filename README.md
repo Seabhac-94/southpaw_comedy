@@ -50,7 +50,7 @@ to see which restaurants are closest to each club, based on budget and ratings.
 
 ## Technologies Used
 
-1. <a href="https://getbootstrap.com">Bootstrap</a> was the basic frameworks off which the site was built. Bootstrap was chosen as it provides a simple yet effective frameworks off of which sites can be built.
+1. <a href="https://getbootstrap.com" target=_blank>Bootstrap</a> was the basic frameworks off which the site was built. Bootstrap was chosen as it provides a simple yet effective frameworks off of which sites can be built.
 2. Google Maps API was used to implement the map feature as it provided the data needed to build a successful site which utilises a map function.
 3. jQuery was used to implement the
 interactive features of the project to simplify manipulation of the DOM and as it provides a good libary of effects for UX.
@@ -78,27 +78,27 @@ Mobile S/M/L, Tablet, Laptop & Laptop L.
 
 ## Deployment
 
-This site was deployed through <a href="https://github.com">Github</a>. It uses the master branch. It updates each time there is a new push to the repository.
+This site was deployed through <a href="https://github.com" target=_blank>Github</a>. It uses the master branch. It updates each time there is a new push to the repository.
 <br>
-The deployed site can be found at <a href="https://seabhac-94.github.io/southpaw_comedy/">SouthPaw Comedy Ireland</a> whilst the code can be found at 
-<a href="https://github.com/Seabhac-94/southpaw_comedy">SouthPaw Comedy Ireland - Code</a>.
+The deployed site can be found at <a href="https://seabhac-94.github.io/southpaw_comedy/" target=_blank>SouthPaw Comedy Ireland</a> whilst the code can be found at 
+<a href="https://github.com/Seabhac-94/southpaw_comedy" target=_blank>SouthPaw Comedy Ireland - Code</a>.
 
 
 ## Credits
 
 #### Sources
 The following articles/websites were used for results content;
-1. <a href="https://www.yaycork.ie/need-a-laugh-here-are-4-of-the-best-comedy-clubs-in-cork/">Yay Cork</a>
-2. <a href="https://lovindublin.com/feature/here-are-9-of-the-best-comedy-nights-in-dublin">Lovin' Dublin</a>
-3. <a href="https://www.tripadvisor.ie">Trip Advisor</a>
+1. <a href="https://www.yaycork.ie/need-a-laugh-here-are-4-of-the-best-comedy-clubs-in-cork/" target=_blank>Yay Cork</a>
+2. <a href="https://lovindublin.com/feature/here-are-9-of-the-best-comedy-nights-in-dublin" target=_blank>Lovin' Dublin</a>
+3. <a href="https://www.tripadvisor.ie" target=_blank>Trip Advisor</a>
 
 #### Media
 
-The background photo for this project was sourced from <a href="https://www.istockphoto.com/ie/photos/laughing-crowd?mediatype=photography&phrase=laughing%20crowd&sort=mostpopular">iStock</a>.
+The background photo for this project was sourced from <a href="https://www.istockphoto.com/ie/photos/laughing-crowd?mediatype=photography&phrase=laughing%20crowd&sort=mostpopular" target=_blank>iStock</a>.
 <br>
-The laughing icon was sourced from <a href="https://www.clipartmax.com/max/m2i8H7b1m2G6H7b1/">Clipart Max</a>.
+The laughing icon was sourced from <a href="https://www.clipartmax.com/max/m2i8H7b1m2G6H7b1/" target=_blank>Clipart Max</a>.
 <br>
-Copyright logo was sourced from <a href="https://fontawesome.com">FontAwesome</a>
+Copyright logo was sourced from <a href="https://fontawesome.com" target=_blank>FontAwesome</a>
 
 #### Final Notes
 This website is intended for educational use only.
